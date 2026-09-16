@@ -1,0 +1,26 @@
+# Ignore datasets
+*.csv
+*.tsv
+Data/
+Dataset/
+**/Data/**
+**/Dataset/**
+
+# Ignore model checkpoints & binaries
+*.pth
+*.pt
+*.pkl
+*.joblib
+*.bin
+
+# Ignore Excel reports & output folders
+*.xlsx
+*.xls
+Output/
+**/Output/**
+
+# System & environments
+.venv/
+venv/
+__pycache__/
+*.DS_Store
